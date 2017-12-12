@@ -7,12 +7,9 @@ import sys
 
 # READ FILENAME FROM COMMAND-LINE ARGUMENT
 LINE_SEPERATOR = '\n'
-# filePath = sys.argv[1]
 filePath = 'Online_Retail.csv'
-# filePath = 'G:\\Fall_2017\\Data_Mining\\Project\\update-2\\iceland_csv.csv'
 # EXTRACT FILENAME WITHOUT EXTENSION TO BE USED AS RELATION
-relationName = filePath.split('/')
-relationName = relationName[len(relationName) - 1].split('.')[0]
+relationName = 'Online_Retail'
 # STORES FILEDATA
 data = list()
 # DICTIONARY OF COLUMNS AND THEIR TYPES
@@ -79,7 +76,6 @@ for i in range(len(header)):
         arffContent += ','.join(sorted(columnTypes.get(i)))
         arffContent += '}'
     else:
-#         arffContent+=" date dd-MM-yy HH:mm"    
         arffContent+=' date dd-MM-yy'
     arffContent += LINE_SEPERATOR
 # DATA

@@ -73,7 +73,7 @@ for line in stock_code_invoice_data:
         spareRepresentation = composeSpareRepresentation(features)
         data.append(spareRepresentation)
 
-relationName = 'InvoiceStockCodes'
+relationName = 'Online_Retail'
 
 # COMPOSE ARFF FORMAT
 # RELATION AS FILENAME
