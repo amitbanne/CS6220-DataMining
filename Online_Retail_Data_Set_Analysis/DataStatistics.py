@@ -1,6 +1,6 @@
 import csv
 import sys
-''' Convert the online-retail excel sheet to csv(OnlineRetail.csv) and feed as input to this program'''
+''' Convert the online-retail excel sheet to csv(Online_Retail.csv) and feed as input to this program'''
 
 ''' THIS PROGRAM GENERATES ARFF format data that will be used to ''' 
 ''' find statistics about data set, using WEKA library'''
