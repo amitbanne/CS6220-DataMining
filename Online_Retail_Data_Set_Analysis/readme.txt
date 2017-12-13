@@ -1,3 +1,18 @@
+Dependencies to run python notebooks
+Please install following modules
+
+1) pandas
+2) matplotlib
+3) datetime
+4) sklearn
+5) csv
+6) numpy as np
+7) time
+8) calendar
+9) math
+10)statsmodels
+
+
 To execute the ipython notebook code or the python programs, following input files should be placed in the same directory as the programs:
 
 1) Online_Retail.xlsx : the dataset in excel format
